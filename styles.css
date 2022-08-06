@@ -3,5 +3,8 @@ body {
 }
 
 .container {
+    display: flex;
     flex-flow: column nowrap;
+    min-height: 100%;
+    outline: 2px red;
 }
