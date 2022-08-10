@@ -2,7 +2,7 @@ body {
     background-color: powderblue;
 }
 
-.container {
+.section-container {
     display: flex;
     flex-flow: column nowrap;
     min-height: 100%;
