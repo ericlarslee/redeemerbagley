@@ -2,9 +2,9 @@ body {
     background-color: powderblue;
 }
 
-.section-container {
+.belief-container {
     display: flex;
-    flex-flow: column nowrap;
     min-height: 100%;
     outline: 2px red;
+    justify-content: center;
 }
