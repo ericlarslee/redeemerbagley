@@ -13,7 +13,7 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="VVEAtpcT"></script>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-          <img class="navbar-brand" href="#" src="images/lcms.png" style="width: 5%;"></img>
+          <img class="navbar-brand" href="#" src="images/lcms.png" style="width: 2%;"></img>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,11 +29,29 @@
       </nav>
   
     <main>
-      <div class="welcome-container" id="home">
-        <h1>Welcome to Redeemer Lutheran Church</h1>
-        <p>This page is currently being developed. Please check back later for updates</p>
+      <div style="height: 100%;">
+        <div class="parallax"></div>
       </div>
-      <div class="container" id="beliefs">
+      <div class="welcome-container" id="home">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col align-self-start">
+              Welcome to Redeemer Lutheran Church! Where we believe in the power of God's word and Sacraments. Come join us as we proclaim the message of our Redeemer.
+            </div>
+            <div class="col">
+              <h3>Service Times</h3>
+              <h5>Sunday</h5>
+              <p><b>9:30 AM</b> Divine Service</p>
+              <h5>Tuesday</h5>
+              <p><b>5:30 PM</b> Vespers</p>
+            </div>
+            <div class="col">
+              Column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="beliefs" style="max-height: 100%;">
         <div  class="row text-center"> 
           <h2>Beliefs</h2>
         </div>
@@ -53,8 +71,12 @@
         </div>
       </div>
       <div class="belief-container" id="news_events">
-        <div class="fb-page" data-href="https://www.facebook.com/Redeemer.Bagley" data-tabs="timeline, events" data-width="500" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Redeemer.Bagley" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Redeemer.Bagley">Redeemer Lutheran Church</a></blockquote></div>
-        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRedeemer.Bagley%2Fposts%2Fpfbid0xzgbZZx2Ys5U2rSYJc58DAARHun3JX6udHbB9kyDHKN66CD7FEbZma8ZkdSvMMnPl&show_text=true&width=500" width="500" height="589" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div class="fb-page" 
+          data-href="https://www.facebook.com/Redeemer.Bagley"
+          data-width="380" 
+          data-hide-cover="false"
+          data-show-facepile="false">
+        </div>
       </div>
 
       
@@ -62,7 +84,7 @@
       
     </main>
   
-    <footer>Redeemer Lutheran Church of Bagley</footer>
+    <footer class="text-center">Redeemer Lutheran Church of Bagley</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
